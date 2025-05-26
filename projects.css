@@ -1,5 +1,3 @@
-/* Shared styles across all pages */
-
 /* Body & Background */
 body {
   margin: 0;
@@ -67,6 +65,19 @@ nav a {
 nav a:hover {
   color: #4cb4f0;
   text-shadow: 0 0 6px #4cb4f0;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.project-image img:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
 }
 
 /* Hamburger Menu */
@@ -139,9 +150,9 @@ nav a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:  rgba(124, 139, 207, 0.662);
+    background-color: rgba(124, 139, 207, 0.662);
     display: none;
-    z-index: 5;
+    z-index: -1;
   }
 
   .overlay.active {
@@ -309,7 +320,7 @@ footer {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px){
   .btn {
     width: 100%;
     text-align: center;
