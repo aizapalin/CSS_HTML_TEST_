@@ -37,7 +37,7 @@ body::after {
   content: "";
   position: fixed;
   inset: 0;
-  background-color: rgba(215, 231, 247, 0.377);
+  background-color: rgba(223, 234, 250, 0.902);
   z-index: -1;
 }
 
@@ -150,7 +150,7 @@ nav a:hover {
     height: 100%;
     background-color: rgba(124, 139, 207, 0.662);
     display: none;
-    z-index: 5;
+    z-index: -1;
   }
 
   .overlay.active {
