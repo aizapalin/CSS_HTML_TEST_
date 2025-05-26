@@ -3,8 +3,8 @@
 body {
   margin: 0;
   font-family:  'Comic Neue', cursive;
-  color: #4cb4f016; /* soft gray-blue */
-  background: #b0daec; /* pale pastel base */
+  color: #08253616; /* soft gray-blue */
+  background: #52a5c9; /* pale pastel base */
   position: relative;
   min-height: 100vh;
 }
@@ -241,13 +241,13 @@ main {
 }
 
 .secondary-btn {
-  background: rgba(132, 182, 244, 0.15);
+  background: rgba(132, 182, 244, 0.136);
   color: #4cb4f0;
-  border: 1px solid #4cb4f007;
+  border: 1px solid #4cb4f000;
 }
 
 .secondary-btn:hover {
-  background:  rgba(247, 212, 236, 0.043);
+  background:  rgba(222, 21, 159, 0.043);
   transform: translateY(-2px);
   transition:scale(1.05);
 }
